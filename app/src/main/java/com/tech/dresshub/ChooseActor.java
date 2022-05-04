@@ -32,9 +32,9 @@ public class ChooseActor extends AppCompatActivity {
         imageView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent mainIntent = new Intent(ChooseActor.this,CustomerLogin.class);
-                ChooseActor.this.startActivity(mainIntent);
-                ChooseActor.this.finish();
+//                Intent mainIntent = new Intent(ChooseActor.this,CustomerLogin.class);
+//                ChooseActor.this.startActivity(mainIntent);
+//                ChooseActor.this.finish();
             }
         });
     }

@@ -12,15 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DressHub">
         <activity
-            android:name=".ManageBag"
-            android:exported="false" />
-        <activity
-            android:name=".AddtoCart"
-            android:exported="false" />
-        <activity
-            android:name=".CustomerHome"
-            android:exported="false" />
-        <activity
             android:name=".ViewProducts"
             android:exported="false" />
         <activity
@@ -31,12 +22,6 @@
             android:exported="false" />
         <activity
             android:name=".SellerRegister"
-            android:exported="false" />
-        <activity
-            android:name=".CustomerRegister"
-            android:exported="false" />
-        <activity
-            android:name=".CustomerLogin"
             android:exported="false" />
         <activity
             android:name=".SellerLogin"
