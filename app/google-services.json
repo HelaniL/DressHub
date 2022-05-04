@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "558453108594",
+    "firebase_url": "https://dress-hub-default-rtdb.firebaseio.com",
+    "project_id": "dress-hub",
+    "storage_bucket": "dress-hub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558453108594:android:592021034fdf193655b7eb",
+        "android_client_info": {
+          "package_name": "com.tech.dresshub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558453108594-86iu96eejb70371k8q5k8kd6e9taudfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYPmYoI1xV72uL6ay5GA-kroOAdKD-aQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558453108594-86iu96eejb70371k8q5k8kd6e9taudfl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
