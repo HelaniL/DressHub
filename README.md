@@ -9,3 +9,11 @@ has to fill a form which contains all the data about a relevant product stock. H
 seller can add the name of the product, add some photographs of the item, add the material of the cloth, add available quantity, add available sizes and colors. He can 
 easily update product details by clicking edit buttons. Then newly added details are saved to the database showing a toast message saying, “product data edited 
 successfully”. After successfully submitting the form with product details, a toast message is popped up showing “Successfully added product details”. 
+
+
+Team Name:	HASH
+Team Leader (IT Number):	IT20621056
+ Member 2 (IT Number):	IT20621292
+Member 3 (IT Number):	IT20645670
+Member 4 (IT Number):	IT20648336
+
