@@ -27,7 +27,7 @@
         android:padding="10dp"
         android:text="My Bag"
         android:textColor="#ffffff"
-        app:backgroundTint="@color/black"
+        app:backgroundTint="@color/purple_200"
         app:cornerRadius="15dp" />
 
     <ListView
