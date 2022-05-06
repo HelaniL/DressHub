@@ -36,17 +36,18 @@
         android:textStyle="bold" />
 
 
-
     <Button
         android:id="@+id/gotobag"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:fontFamily="sans-serif-medium"
         android:padding="10dp"
         android:text="My Bag"
         android:textColor="#ffffff"
         app:backgroundTint="@color/purple_200"
-        app:cornerRadius="15dp" />
+        app:cornerRadius="15dp"
+        app:rippleColor="#FBFBFB" />
 
     <ListView
         android:id="@+id/listproducts"
