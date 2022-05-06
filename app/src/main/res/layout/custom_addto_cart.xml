@@ -89,6 +89,7 @@
             android:padding="10dp"
             android:text="Add To Bag"
             android:textColor="#ffffff"
+            android:textStyle="italic"
             app:backgroundTint="@color/black"
             app:cornerRadius="15dp" />
     </LinearLayout>
