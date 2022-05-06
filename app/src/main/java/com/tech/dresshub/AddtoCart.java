@@ -105,8 +105,8 @@ public class AddtoCart extends AppCompatActivity {
 
                     Toast.makeText(AddtoCart.this, "Successfully added", Toast.LENGTH_SHORT).show();
 
-                    //Intent intent = new Intent(AddtoCart.this, CustomerHome.class);
-                    //startActivity(intent);
+                    Intent intent = new Intent(AddtoCart.this, CustomerHome.class);
+                    startActivity(intent);
                 }
             }
         });

@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MAD FINAL/CartManagement/DressHub/app/src/main/res/layout/activity_add_product.xml" value="0.25052083333333336" />
         <entry key="..\:/MAD FINAL/CartManagement/DressHub/app/src/main/res/layout/activity_addto_cart.xml" value="0.25052083333333336" />
+        <entry key="..\:/MAD FINAL/CartManagement/DressHub/app/src/main/res/layout/activity_choose_actor.xml" value="0.25052083333333336" />
         <entry key="..\:/MAD FINAL/CartManagement/DressHub/app/src/main/res/layout/activity_customer_home.xml" value="0.25052083333333336" />
         <entry key="..\:/MAD FINAL/CartManagement/DressHub/app/src/main/res/layout/activity_manage_bag.xml" value="0.25052083333333336" />
         <entry key="..\:/MAD FINAL/CartManagement/DressHub/app/src/main/res/layout/activity_view_products.xml" value="0.25052083333333336" />
