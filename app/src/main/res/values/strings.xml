@@ -2,4 +2,10 @@
     <string name="app_name">Dress Hub</string>
     <string name="welcomeback" />
     <string name="welcomeBack">Welcome Back!</string>
+    <string name="Toolbaraddtocart">Toolbaraddtocart</string>
+    <string name="addtocarttoolbar">View Items</string>
+    <string name="AddtocartToolbar">Add To Bag</string>
+    <string name="CustomerhomeToolbar">New Products</string>
+    <string name="BagitemlistToolbar">My Bag</string>
+    <string name="UpdatebagToolbar">Update Bag</string>
 </resources>
