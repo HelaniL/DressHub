@@ -99,7 +99,7 @@
                         android:padding="10dp"
                         android:text="Cal Total"
                         android:textColor="#ffffff"
-                        android:textStyle="italic"
+                        android:textStyle="bold|italic"
                         app:backgroundTint="@android:color/holo_purple"
                         app:cornerRadius="15dp" />
                 </LinearLayout>
@@ -131,7 +131,7 @@
                 android:padding="10dp"
                 android:text="Add To Bag"
                 android:textColor="#ffffff"
-                android:textStyle="italic"
+                android:textStyle="bold|italic"
                 app:backgroundTint="@color/black"
                 app:cornerRadius="15dp" />
         </LinearLayout>

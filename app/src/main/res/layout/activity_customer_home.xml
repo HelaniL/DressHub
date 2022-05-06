@@ -45,6 +45,7 @@
         android:padding="10dp"
         android:text="My Bag"
         android:textColor="#ffffff"
+        android:textStyle="bold|italic"
         app:backgroundTint="@color/purple_200"
         app:cornerRadius="15dp"
         app:rippleColor="#FBFBFB" />
