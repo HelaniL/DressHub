@@ -15,6 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
+
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/updatetoolbar"
                 android:layout_width="409dp"
@@ -26,8 +27,9 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:navigationIcon="?attr/actionModeCloseDrawable"
-                app:title="@string/UpdatebagToolbar" />
+                app:navigationIcon="@android:drawable/ic_media_rew"
+                app:title="@string/UpdatebagToolbar"
+                app:titleTextColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView"
@@ -99,7 +101,7 @@
                         android:padding="10dp"
                         android:text="Cal Total"
                         android:textColor="#ffffff"
-                        app:backgroundTint="@android:color/holo_red_light"
+                        app:backgroundTint="@android:color/holo_purple"
                         app:cornerRadius="15dp" />
                 </LinearLayout>
 

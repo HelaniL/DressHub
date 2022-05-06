@@ -16,6 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
+
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/addtocarttoolbar"
                 android:layout_width="409dp"
@@ -27,8 +28,9 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:navigationIcon="?attr/actionModeCloseDrawable"
-                app:title="@string/AddtocartToolbar" />
+                app:navigationIcon="@android:drawable/ic_media_rew"
+                app:title="@string/AddtocartToolbar"
+                app:titleTextColor="@color/white" />
 
             <ImageView
                 android:id="@+id/producttimage"
@@ -97,7 +99,7 @@
                         android:padding="10dp"
                         android:text="Cal Total"
                         android:textColor="#ffffff"
-                        app:backgroundTint="@android:color/holo_red_light"
+                        app:backgroundTint="@android:color/holo_purple"
                         app:cornerRadius="15dp" />
                 </LinearLayout>
 
