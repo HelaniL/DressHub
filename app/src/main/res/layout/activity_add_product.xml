@@ -89,6 +89,9 @@
                     <RadioGroup
                         android:layout_width="match_parent"
                         android:orientation="vertical"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="0dp"
+                        android:paddingLeft="0dp"
                         android:layout_height="match_parent" >
 
                         <RadioButton
@@ -206,9 +209,9 @@
                 android:layout_margin="10dp"
                 android:padding="10dp"
                 android:text="Submit"
-                android:textSize="20dp"
-                android:textColor="#ffffff"
-                android:background="#A463DA"
+                android:textSize="25dp"
+                android:textColor="#FAF1F1"
+                android:background="@drawable/submitbtnstyle"
                 app:cornerRadius="25dp" />
 
         </LinearLayout>
