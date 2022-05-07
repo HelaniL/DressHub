@@ -11,13 +11,20 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="150dp">
+        android:layout_marginTop="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+
+            <View
+                android:id="@+id/registerwave1"
+                android:layout_width="414dp"
+                android:layout_height="84dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/ic_wave" />
 
             <EditText
                 android:id="@+id/Uname"
@@ -110,6 +117,16 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
+            <View
+                android:id="@+id/registerwave2"
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_wave2" />
+
         </LinearLayout>
+
     </ScrollView>
+
 </LinearLayout>

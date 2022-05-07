@@ -20,6 +20,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.Toast;
+import androidx.appcompat.widget.Toolbar;
 
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -41,6 +42,7 @@ public class AddProduct extends AppCompatActivity {
     private RadioButton radioButton1,radioButton2,radioButton3,radioButton4,radioButton5;
     private EditText editText1,editText2,editText3,editText4,editText5;
     private ImageView imageView;
+    private Toolbar toolbar;
     Button button;
 
     // Folder path for Firebase Storage.
@@ -57,6 +59,7 @@ public class AddProduct extends AppCompatActivity {
     int Image_Request_Code = 7;
 
     private static final int SELECT_PICTURE = 100;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,8 +78,17 @@ public class AddProduct extends AppCompatActivity {
         editText5 =(EditText) findViewById(R.id.price);
         imageView =(ImageView) findViewById(R.id.productimage);
         button = (Button) findViewById(R.id.submit);
+        toolbar = (Toolbar) findViewById(R.id.Addproducttoolbar);
 
 
+        toolbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent mainIntent = new Intent(AddProduct.this,SellerHome.class);
+                AddProduct.this.startActivity(mainIntent);
+                AddProduct.this.finish();
+            }
+        });
 
         // Assign FirebaseStorage instance to storageReference.
         storageReference = FirebaseStorage.getInstance().getReference();

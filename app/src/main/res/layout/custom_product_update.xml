@@ -96,15 +96,17 @@
                 android:inputType="textPersonName"
                 tools:ignore="TouchTargetSizeCheck" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/dsubmit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:background="@drawable/submitbtnstyle"
+                android:fontFamily="@font/carter_one"
                 android:padding="10dp"
                 android:text="Update"
-                android:textColor="#ffffff"
-                app:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:textSize="20dp"
                 app:cornerRadius="15dp" />
         </LinearLayout>
     </ScrollView>
