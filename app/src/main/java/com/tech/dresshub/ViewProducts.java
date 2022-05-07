@@ -2,11 +2,13 @@ package com.tech.dresshub;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,6 +20,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+import androidx.appcompat.widget.Toolbar;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -37,6 +40,7 @@ public class ViewProducts extends AppCompatActivity {
     List<Products> user;
     DatabaseReference ref;
     String idd;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +49,7 @@ public class ViewProducts extends AppCompatActivity {
 
         listView = (ListView) findViewById(R.id.productslist);
         user = new ArrayList<>();
+        toolbar = (Toolbar) findViewById(R.id.myproductstoolbar);
 
         ref = FirebaseDatabase.getInstance().getReference("Products");
 
@@ -68,6 +73,16 @@ public class ViewProducts extends AppCompatActivity {
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
+            }
+        });
+
+
+        toolbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent mainIntent = new Intent(ViewProducts.this,SellerHome.class);
+                ViewProducts.this.startActivity(mainIntent);
+                ViewProducts.this.finish();
             }
         });
     }
