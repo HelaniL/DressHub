@@ -215,7 +215,7 @@ public class ManageBag extends AppCompatActivity {
                         @Override
                         public void onClick(View view) {
                             if (editText1.getText().toString().isEmpty()){
-                                Toast.makeText(ManageBag.this, "Quantity is Required", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(ManageBag.this, "Quantity is Required for total price,please input it.", Toast.LENGTH_SHORT).show();
                             }else{
                                 int qty = Integer.parseInt(editText1.getText().toString());
                                 int intprice = Integer.parseInt(pprice);
@@ -255,7 +255,7 @@ public class ManageBag extends AppCompatActivity {
                                 map.put("contact", dcontact);
                                 reference.updateChildren(map);
 
-                                Toast.makeText(ManageBag.this, "Updated successfully", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(ManageBag.this, "Item Updated successfully", Toast.LENGTH_SHORT).show();
 
                                 alertDialog.dismiss();
                             }
