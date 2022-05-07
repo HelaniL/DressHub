@@ -102,7 +102,7 @@
                 android:padding="10dp"
                 android:text="Update"
                 android:textColor="#ffffff"
-                android:textStyle="italic"
+                android:textStyle="bold|italic"
                 app:backgroundTint="@color/black"
                 app:cornerRadius="15dp" />
         </LinearLayout>
@@ -121,7 +121,7 @@
                 android:padding="10dp"
                 android:text="Delete"
                 android:textColor="#ffffff"
-                android:textStyle="italic"
+                android:textStyle="bold|italic"
                 app:backgroundTint="@android:color/holo_red_light"
                 app:cornerRadius="15dp" />
         </LinearLayout>

@@ -103,7 +103,7 @@ public class AddtoCart extends AppCompatActivity {
                     Cart cart = new Cart(key,image,type,name,quantity,size,price,textView.getText().toString(),address,contact);
                     ref.child(key).setValue(cart);
 
-                    Toast.makeText(AddtoCart.this, "Successfully added", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AddtoCart.this, "Item Successfully added to Bag", Toast.LENGTH_SHORT).show();
 
                     Intent intent = new Intent(AddtoCart.this, CustomerHome.class);
                     startActivity(intent);
