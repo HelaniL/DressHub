@@ -90,7 +90,7 @@ public class SellerRegister extends AppCompatActivity {
 
                                         System.out.println(members);
                                         Toast.makeText(SellerRegister.this, "Sign up successfully", Toast.LENGTH_SHORT).show();
-                                        Intent intent = new Intent(SellerRegister.this, SellerHome.class);
+                                        Intent intent = new Intent(SellerRegister.this, SellerLogin.class);
                                         startActivity(intent);
                                     } else {
                                         Toast.makeText(SellerRegister.this, "Sign up failed", Toast.LENGTH_SHORT).show();
