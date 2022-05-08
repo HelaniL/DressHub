@@ -8,8 +8,23 @@
     android:orientation="vertical"
     tools:context=".ViewProducts">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/myproductstoolbar"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#A463DA"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:navigationIcon="@drawable/abc_vector_test"
+        app:subtitleTextColor="@color/design_default_color_surface"
+        app:title="My products"
+        app:titleTextColor="@color/design_default_color_background" />
+
+
     <ListView
         android:id="@+id/productslist"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
 </LinearLayout>

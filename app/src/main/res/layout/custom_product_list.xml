@@ -37,43 +37,51 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textSize="20dp"/>
 
             <TextView
                 android:id="@+id/name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textSize="20dp"/>
 
             <TextView
                 android:id="@+id/metireal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textSize="20dp"/>
 
             <TextView
                 android:id="@+id/strech"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textSize="20dp"/>
 
             <TextView
                 android:id="@+id/size"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textSize="20dp"/>
 
             <TextView
                 android:id="@+id/price"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textSize="20dp"/>
+
         </LinearLayout>
+
     </LinearLayout>
 
     <LinearLayout
@@ -87,15 +95,17 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/update"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:padding="10dp"
                 android:text="Update"
+                android:textSize="16dp"
                 android:textColor="#ffffff"
-                app:backgroundTint="@color/black"
+                android:background="@drawable/submitbtnstyle"
+                android:fontFamily="@font/carter_one"
                 app:cornerRadius="15dp" />
         </LinearLayout>
 
@@ -105,15 +115,17 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/delete"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:background="@drawable/deletebtnstyle"
+                android:fontFamily="@font/carter_one"
                 android:padding="10dp"
                 android:text="Delete"
                 android:textColor="#ffffff"
-                app:backgroundTint="@android:color/holo_red_light"
+                android:textSize="16dp"
                 app:cornerRadius="15dp" />
         </LinearLayout>
     </LinearLayout>

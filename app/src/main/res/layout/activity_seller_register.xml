@@ -11,7 +11,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="210dp">
+        android:layout_marginTop="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -19,17 +19,25 @@
             android:orientation="vertical">
 
 
+            <View
+                android:id="@+id/registerwave1"
+                android:layout_width="414dp"
+                android:layout_height="84dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/ic_wave" />
+
             <EditText
                 android:id="@+id/Uname"
-                android:drawablePadding="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/roundborders"
+                android:drawableLeft="@drawable/uname"
+                android:drawablePadding="10dp"
+                android:hint="User Name"
                 android:inputType="textEmailAddress"
                 android:textColor="#000000"
-                android:textSize="16sp"
-                android:drawableLeft="@drawable/uname"
-                android:layout_margin="10dp"
-                android:hint="User Name"/>
+                android:textSize="30sp" />
 
 
 
@@ -37,60 +45,65 @@
                 android:id="@+id/Remail"
                 android:drawablePadding="10dp"
                 android:drawableLeft="@drawable/email"
-                android:layout_margin="10dp"
+                android:background="@drawable/roundborders"
+                android:layout_margin="20dp"
                 android:hint="Email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
                 android:textColor="#000000"
-                android:textSize="16sp" />
+                android:textSize="30sp" />
 
 
             <EditText
                 android:id="@+id/Age"
                 android:drawablePadding="10dp"
                 android:drawableLeft="@drawable/age"
-                android:layout_margin="10dp"
+                android:background="@drawable/roundborders"
+                android:layout_margin="20dp"
                 android:hint="Age"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"
                 android:textColor="#000000"
-                android:textSize="16sp" />
+                android:textSize="30sp" />
 
             <EditText
                 android:id="@+id/contct"
                 android:drawablePadding="10dp"
                 android:drawableLeft="@drawable/call"
-                android:layout_margin="10dp"
+                android:background="@drawable/roundborders"
+                android:layout_margin="20dp"
                 android:hint="Contact Number"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="phone"
                 android:textColor="#000000"
-                android:textSize="16sp" />
+                android:textSize="30sp" />
 
             <EditText
                 android:id="@+id/password"
                 android:drawablePadding="10dp"
                 android:drawableLeft="@drawable/padlock"
-                android:layout_margin="10dp"
+                android:background="@drawable/roundborders"
+                android:layout_margin="20dp"
                 android:hint="Password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
                 android:textColor="#000000"
-                android:textSize="16sp" />
+                android:textSize="30sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:padding="10dp"
-                android:text="Register"
-                android:textColor="#ffffff"
-                android:backgroundTint="@color/black"
+                android:text="Sign In"
+                android:background="@drawable/signupbuttonstyle"
+                android:textSize="25dp"
+                android:textColor="#0C0C0C"
                 app:cornerRadius="15dp" />
 
             <TextView
@@ -99,11 +112,21 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:gravity="center"
-                android:text="Already have an account..."
-                android:textColor="@android:color/holo_red_light"
+                android:text="Already have an account ?"
+                android:textColor="@color/purple_700"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
+            <View
+                android:id="@+id/registerwave2"
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_wave2" />
+
         </LinearLayout>
+
     </ScrollView>
+
 </LinearLayout>

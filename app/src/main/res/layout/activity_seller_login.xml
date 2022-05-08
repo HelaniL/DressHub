@@ -21,6 +21,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#DEB6F6"
+            app:cornerRadius="25dp"
             android:orientation="vertical">
 
             <TextView
@@ -28,9 +30,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="signin"
-                android:textColor="#000000"
-                android:textSize="20sp"
+                android:text="Welcome!"
+                android:gravity="center"
+                android:textColor="#603398"
+                android:textSize="40dp"
                 android:textStyle="bold" />
 
             <EditText
@@ -40,6 +43,7 @@
                 android:layout_margin="10dp"
                 android:drawableLeft="@drawable/email"
                 android:drawablePadding="10dp"
+                android:background="@drawable/roundborders"
                 android:hint="Email"
                 android:inputType="textEmailAddress"
                 android:textColor="#000000"
@@ -51,24 +55,26 @@
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
                 android:drawableLeft="@drawable/padlock"
+                android:background="@drawable/roundborders"
                 android:drawablePadding="10dp"
                 android:hint="Password"
                 android:inputType="textPassword"
                 android:textColor="#000000"
                 android:textSize="16sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:padding="10dp"
-                android:text="signin"
-                android:textColor="#ffffff"
-                app:backgroundTint="@color/black"
+                android:text="sign In"
+                android:textSize="29dp"
+                android:background="@drawable/btnstyle"
+                android:textColor="#1B122C"
                 app:cornerRadius="15dp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/regi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -76,10 +82,11 @@
                 android:layout_marginTop="30dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
+                android:background="@drawable/signupbuttonstyle"
                 android:padding="10dp"
-                android:text="signup"
-                android:textColor="#ffffff"
-                app:backgroundTint="@android:color/holo_red_light"
+                android:text="sign Up"
+                android:textSize="30dp"
+                android:textColor="#0C0C0C"
                 app:cornerRadius="15dp" />
 
             <TextView
